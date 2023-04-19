@@ -1,0 +1,159 @@
+nav{
+	padding:5px;
+}
+#main-nav ul{
+	list-style-type:none;
+	padding-left:0;
+	padding-right:5px;
+}
+#main-nav li{
+	display:block;
+	padding:2px;
+}
+#main-nav a{
+	text-decoration:none;
+	background:mediumaquamarine;
+	color:white;
+	padding:3px;
+	width:100%;
+	text-align:left;
+	display:block;
+}
+#content{
+	background:cornsilk;
+	width:80%;
+	margin:auto;
+	font-family:Arial;
+}
+h1{
+	color:chocolate;
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+section{
+	background:lightseagreen;
+	color:white;
+}
+header{
+	padding:5px;
+}
+main{
+	padding:5px;
+}
+footer{
+	padding:5px;
+	color:chocolate;
+	text-align:center;
+}
+#content img{
+	width:100%;
+	height:auto;
+	box-shadow: 5px 5px chocolate;
+}
+form{
+	max-width:500px;
+	margin:150px auto;
+	padding-top:0px;
+	margin-top:0px;
+}
+input, textarea, button{
+	width:100%;
+}
+
+.hidden{
+	display: none;
+}
+
+#more {display: none;}
+#slideshow img{
+	width: 100%;
+	height: 500px;
+}
+#slideshow{
+	text-align: center;
+}
+
+@media screen and (min-width: 1000px){
+#content{
+	background:cornsilk;
+	width:80%;
+	margin:auto;
+	font-family:Arial;
+}
+#more {display: none;}
+#slideshow img{
+	width: 500px;
+	height: 800px;
+}
+#slideshow{
+	text-align: center;
+}
+
+form{
+	max-width:500px;
+	margin:150px auto;
+	padding-top:0px;
+	margin-top:0px;
+}
+input, textarea, button{
+	width:100%;
+}
+h1{
+	color:chocolate;
+	text-align:center;
+}
+section{
+	background:lightseagreen;
+	color:white;
+}
+header{
+	padding:5px;
+}
+main{
+	padding:5px;
+}
+footer{
+	padding:5px;
+	color:chocolate;
+	text-align:center;
+}
+nav{
+	padding:5px;
+}
+#main-nav ul{
+	list-style-type:none;
+	text-align:center;
+}
+#main-nav li{
+	display:inline;
+}
+#main-nav a{
+	text-decoration:none;
+	background:mediumaquamarine;
+	color:white;
+	padding:5px;
+	display:inline;
+}
+#main-nav a:hover{
+	background:white;
+	color:dodgerblue
+}
+.main h2{
+	text-align:center;
+}
+
+.hidden{
+	display: none;
+}
+
+/*Image Styling*/
+#content img{
+box-shadow: 5px 5px chocolate;
+}
+#home img:hover{
+transform:rotate(20deg);
+box-shadow: 10px 10px black;
+}
+}
